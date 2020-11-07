@@ -344,6 +344,12 @@ textarea {
   padding-bottom: 10px;
 }
 
+
+.image-wrap {
+  background-color: red;
+  border: 5px solid green;
+}
+
 .article-detail .image-wrap {
   float: none;
   width: 100%;

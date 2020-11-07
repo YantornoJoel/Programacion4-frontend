@@ -1,3 +1,7 @@
+
+
+
+
 body {
   text-align: center;
   margin: 0px;
@@ -88,6 +92,10 @@ body {
   color: rgb(241, 8, 8);
 }
 
+.active{
+  border-bottom: 2px solid #2980b9
+}
+
 .clearfix {
   clear: both;
   float: none;
@@ -141,15 +149,45 @@ body {
   color: white;
 }
 
-#slider .slider-small {
-  height: 150px;
+/* #slider .slider-small {
+  max-height: 150px;
+ 
+} */
+.slider-small{
+  max-height: 150px;
+  /* float: left; */
+  min-height: 150px;
+}
+/* #slider {
+  background: red;
+  float: right;
+  justify-content: center;
+  text-align: center;
+  text-justify: auto;
+} */
+/* 
+.h1-slider{
+  margin-top: -200px;
+  float: left;
+
+  background: red;
+} */
+
+
+#slider  h1 {
+  margin-top: 0.2px;
+  padding: 0px;
+  padding-top: 140px;
+  text-align: center;
+  
 }
 
-#slider .slider-small h1 {
+ /* #slider .slider-small h1 {
+   background: red;
   margin-top: 0.2px;
   padding: 0px;
   padding-top: 50px;
-}
+}  */
 
 #content {
   width: 70%;
@@ -300,6 +338,10 @@ textarea {
   text-align: left;
 }
 
+.articles-margin-top{
+  margin-top: 120px;
+}
+
 .article-item .image-wrap {
   width: 130px;
   height: 130px;
@@ -312,6 +354,7 @@ textarea {
 
 .article-item .image-wrap img {
   height: 100%;
+  width: 100%;
   text-align: center;
 }
 
@@ -348,6 +391,8 @@ textarea {
   font-size: 38px;
   border-bottom: 1px solid #eee;
   padding-bottom: 10px;
+  margin-top: 80px;
+  margin-bottom: -20px;
 }
 
 .article-detail .image-wrap {
@@ -444,9 +489,9 @@ textarea {
   }
   #slider .slider-small h1 {
     padding-top: 35px;
-  }
+  }}
 
   .mid-form {
     width: 70%;
   }
-}
+
